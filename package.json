@@ -1,0 +1,36 @@
+{
+  "name": "vue-component-creator",
+  "version": "1.0.0",
+  "description": "vue-component-creator",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "vcc": "bin/vcc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonofmagic/vue-component-creator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonofmagic/vue-component-creator/issues"
+  },
+  "homepage": "https://github.com/sonofmagic/vue-component-creator#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0"
+  },
+  "dependencies": {
+    "commander": "^9.0.0",
+    "defu": "^5.0.1",
+    "vite": "^2.8.5"
+  }
+}
